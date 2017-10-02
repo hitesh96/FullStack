@@ -1,0 +1,191 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.container {
+    display: block;
+    width: 100%;
+}
+
+
+.col-1 {
+    width: calc(100% / 12);
+}
+
+
+.col-2 {
+    width: calc(100% / 6);
+}
+
+
+.col-3 {
+    width: calc(100% / 4);
+}
+
+
+.col-4 {
+    width: 100%;
+}
+
+
+.col-5 {
+    width: calc(100% / 2.4);
+}
+
+
+.col-6 {
+    width: calc(100% / 2);
+}
+
+
+.col-7 {
+    width: calc(100% / 1.7142);
+}
+
+
+.col-8 {
+    width: calc(100% / 1.5);
+}
+
+
+.col-9 {
+    width: calc(100% / 1.33333);
+}
+
+
+.col-10 {
+    width: calc(100% / 1.2);
+}
+
+
+.col-11 {
+    width: calc(100% / 1.090909);
+}
+
+
+.col-12 {
+    width: 100%;
+}
+
+
+.header {
+    min-height: 56px;
+    transition: min-height 0.3s;
+}
+
+.my-projects {
+    font-size: 20px;
+    color: #2d3c49;
+    width: 100%;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.project {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+#logo {
+    width: 100%;
+    max-width: 100px;
+    min-width: 60px;
+    padding-left: 3px;
+}
+
+
+#name {
+    font-weight: 100;
+    font-size: -webkit-xxx-large;
+    text-align: right;
+    color: #2d3c49;
+    font-family: "Roboto Mono", monospace;
+    margin: auto;
+    padding-right: 3px;
+}
+
+
+#job {
+    font-weight: 500;
+    font-size: larger;
+    color: #2d3c49;
+    text-align: right;
+    font-family: "Roboto Mono", monospace;
+    margin: auto;
+    padding-right: 3px;
+}
+
+
+#my-work {
+    font-size: 28px;
+    color: #7d97ad;
+    font-family: "Roboto", sans-serif;
+}
+
+
+hr {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #7d97ad;
+}
+
+
+img {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+
+a {
+    text-decoration: none;
+    text-align: center;
+    color: #2d3c49;
+    font-size: 20px;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+
+a:hover {
+    text-decoration: underline;
+    color: #212121;
+}
+
+
+footer {
+    width: 100%;
+}
+
+
+@media screen and (min-width: 650px) {
+    .header,
+    hr,
+    p,
+    section,
+    article,
+    main {
+        width: 83.33%;
+        margin: auto;
+    }
+}
+
+
+@media screen and (min-width: 500px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .col-4 {
+        width: 33.33%;
+    }
+    #my-projects {
+        font-size: 20px;
+    }
+}
